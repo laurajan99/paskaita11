@@ -1,0 +1,498 @@
+style.css
+DETAILS
+ACTIVITY
+Today
+
+Karolis Kerpys uploaded an item
+Mon 10:28 PM
+Style Sheet
+style.css
+No recorded activity before August 14, 2017
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.landing-page{
+    height: 100vh;
+    background-image: url('img/main.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.landing-page .logo{
+    width: 66px;
+    line-height: 66px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #11749e;
+    box-shadow: 10px 10px 0 rgba(255,255,255, .8);
+    float: left;
+    margin-bottom: 15px;
+}
+.container{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+header .container{
+    
+}
+header{
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(100,100,100, .5);
+}
+.landing-page nav{
+    float: right;
+}
+.landing-page li, .landing-page ul{
+    display: inline-block;
+}
+.landing-page nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.landing-page .menu li{
+    margin: 0 22px;
+    line-height: 66px;
+}
+.landing-page .icons li{
+    margin: 0 10px;
+    line-height: 66px;
+}
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.landing-page .menu a{
+    padding-bottom: 32px;
+}
+.landing-page .menu a:hover{
+    border-bottom: 4px solid #11749e;
+}
+.landing-page .page-title{
+    position: absolute;
+    left: 50%;
+    margin: auto;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.landing-page .arrow{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom:10%;
+}
+.landing-page .page-title h1{
+    font-size: 120px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.landing-page .page-title h3{
+    font-size: 24px;
+    color: #11749e;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+    margin-top: 20px;
+    text-align: center;
+}
+.landing-page .arrow span{
+    color: white;
+    font-size: 13px;
+    line-height: 22px;
+}
+.landing-page .arrow div{
+    font-size: 30px;
+    color: white;
+    line-height: 60px;
+    width: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin:  auto;
+    margin-top: 15px;
+    cursor: pointer;
+}
+/*******  SECTION AGENCY ********/
+
+.agency{
+    background-color: #11749e;
+    padding-bottom: 120px;
+}
+.main-title{
+    margin: auto;
+    position: relative;
+}
+.main-title span{
+    font-size: 247px;
+    font-weight: 800;
+    color: rgba(255,255,255, .18);
+}
+.main-title h2{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 37px;
+}
+.agency .wrapper{
+    width: 24.5%;
+    display: inline-block;
+    vertical-align: top;
+}
+.agency .wrapper .icons i{
+    color: white;
+    width: 40px;
+    font-size: 40px;
+    padding: 40px;
+    background-color: #2e85aa;
+    border-radius: 50%;
+}
+.agency .wrapper h4{
+    font-size: 18px;
+    line-height: 36px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.agency .wrapper p{
+    font-size: 15px;
+    line-height: 24px;
+    width: 90%;
+    text-align: justify;
+    color: white;
+}
+
+/****galery***/
+
+.galery .first-row{
+    background-color: #222222;
+}
+.galery .first-row{
+    color: white;
+}
+.galery .first-row .half-container{
+/*    float: left;*/
+    padding-right: 70px;
+    box-sizing: border-box;
+}
+
+.galery .second-row{
+    background-color: #f3f3f3;
+}
+.galery .second-row{
+    color: black;
+}
+.galery .second-row .half-container{
+/*    float: right;*/
+    padding-right: 70px;
+    box-sizing: border-box;
+}
+.galery span{
+    margin: 10px 0;
+    display: block;
+}
+.galery h3{
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.galery .galery-item{
+    width: 50%;
+    float: left;
+}
+
+
+/******blog****/
+.blog .wrapper1{
+    display: inline-block;
+    width: 22%;
+    margin: 0 1.5%;
+    text-align: center;
+    
+}
+.blog .wrapper1 img{
+    width: 100%;
+}
+.blog .wrapper1 p{
+    color: black;
+    text-align: justify;
+}
+.blog .first-wrapper{
+    margin-left: 0;
+}
+.blog .last-wrapper{
+    margin-right: 0;
+}
+.blog .main-title span{
+    color:#e2e2e2;
+    
+}
+.blog .main-title h2{
+   color: #222222; 
+}
+.blog h3{
+    color: #222;
+    font-size: 30px;
+    margin: 30px 0;
+    text-align: center;
+    
+}
+.blog .wrapper1 h4{
+    color: #17149e;
+    margin: 34px auto 17px auto;
+    font-size:18px;
+    font-weight: 700;
+    
+}
+.blog .wrapper1 p{
+    color: #222222;
+    font-size: 15px;
+    line-height: 24px;
+}
+.adds{
+    background-image: url('img/11.jpg');
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.adds p{
+  color: white;
+}
+.mobile{
+    background-image: url('img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 90px 0;
+}
+.mobile .content{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.mobile img{
+    width: 25%;
+    margin-right: 15%;
+    float: right;
+    
+}
+.mobile h3{
+    font-size:25px;
+    text-transform: uppercase;
+}
+.mobile p{
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.mobile .bar{
+    line-height: 34px;
+    background-color: #11749e;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 15px 0;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.mobile .bar-first{
+    width: 60%;
+}
+.mobile .bar-second{
+    width: 70%;
+}
+.mobile .bar-third{
+    width: 80%;
+}
+/****team****/
+
+
+.team .main-title span{
+    color:#e2e2e2;
+    
+}
+.team .main-title h2{
+   color: #222222; 
+}
+.team .container{
+    margin-bottom: 30px;
+}
+.team p{
+    color: #222;
+    font-size: 30px;
+    margin: 30px 0;
+    text-align: center;
+    text-transform:capitalize;
+    
+}
+.team .wrapper{
+    display: inline-block;
+    width: 20%;
+    margin-right: 40px;
+    margin-bottom: 40px;
+/*    border: 2px solid black;*/
+}
+.team .wrapper img{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+.team .wrapper h1{
+    background-color: white;
+    font-family: sans-serif;
+    color: #11749e;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.team .wrapper p{
+    color: black;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.team .wrapper div{
+    width: 150px;
+    margin-left: 26px;
+    margin-top: -40px;
+    margin-bottom: 0;
+    background-color: white;
+    position: absolute;
+    
+}
+
+
+/****last-page****/
+
+.last-page{
+    background-image: url('img/Layer%2097.png');
+    padding-top: 100px;
+    padding-bottom: 80px;
+/*    background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+}
+.last-page{
+    background-color: black;
+}
+.last-page .main-title span{
+    color: #e2e2e2;
+    
+}
+.last-page .main-title h2{
+   color: white; 
+    text-transform: uppercase;
+}
+
+.container input{
+    width: 28.5%;
+    height: 30px;
+    margin-right: 15px;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+}
+.container2 textarea{
+    width: 60%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding-left: 10px;
+    top: 0;
+    vertical-align: text-top;
+}
+.last-page button{
+    width: 200px;
+    height: 60px;
+    background-color: #2e85aa;
+    color: white;
+    font-family:sans-serif;
+    font-size: 30px;  
+    margin-top: 30px;  
+}
+/***map***/
+
+.map{
+    background-image: url('img/Layer%2098.png');
+    padding-top: 100px;
+    padding-bottom: 150px;
+/*    background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+/**/
